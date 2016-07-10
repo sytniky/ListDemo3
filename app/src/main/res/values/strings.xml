@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ListDemo</string>
+
+    <string-array name="data">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Thursday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+</resources>

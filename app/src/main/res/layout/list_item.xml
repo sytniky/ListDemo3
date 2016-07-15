@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:id="@+id/rlLayout">
+
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@android:drawable/ic_delete"/>
+
+    <TextView
+        android:id="@+id/tvCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="test"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivImage"
+        android:layout_toLeftOf="@id/tvCost"
+        android:layout_alignTop="@id/ivImage"
+        android:paddingLeft="16dp"
+        android:textSize="18sp"
+        android:text="Title"/>
+
+    <TextView
+        android:id="@+id/tvDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ivImage"
+        android:layout_toLeftOf="@id/tvCost"
+        android:layout_below="@id/tvTitle"
+        android:paddingLeft="16dp"
+        android:textSize="18sp"
+        android:text="Desc"/>
+
+
+</RelativeLayout>
